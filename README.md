@@ -38,3 +38,9 @@ Part 4: Let's add a description for each activity
     
 Part 5: get the final dataset, the avg of each measure for each subject for each activity
  
+Acknowledgements:
+I got all the information regarding the experiment from the ReadMe file and the other supporting documents prepared by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+
+I received several suggestions about how to prepare the data and create the necessary documents from David Hood on the course forums.
+
+I also learned a great deal of how to process the data from Jeff Leak the course instructor

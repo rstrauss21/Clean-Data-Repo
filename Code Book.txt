@@ -1,0 +1,116 @@
+Code Book for Tidy Data project
+
+General comments:
+Note: some descriptions were taken from the README file that was part of the dataset(*)
+  T as the first character indicates that it is a time domain signal
+  F as the first character indicates that it is a frequency domain signal
+  X, Y, or Z at the end of the variable indicates it directional vector
+  Acc* - acceleration signal from the smartphone accelerometer in standard gravity units 'g'
+  BodyAcc* - The body acceleration signal obtained by subtracting the gravity from the total acceleration
+  BodyGyro* - The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+  Jerk* - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+  Mean - refers to the mean value for the measure
+  STD - refers to the standard deviation for the measure
+  Each feature is normalized between [-1, 1]*
+
+
+Subject
+  the unique identifier for the subject that of the experiment
+  values are from 1-30
+ 
+ Activity
+  this the activity that was performed by the subject when the measures were taken
+  there are 6 different values 
+    -laying
+	-sitting
+    -standing
+	-walking
+	-walking downstairs
+	-walking upstairs 
+ 
+"TBodyAccMeanX"  15 digits; values between [-1, 1]
+"TBodyAccMeanY"  15 digits; values between [-1, 1]
+"TBodyAccMeanZ"  15 digits; values between [-1, 1]
+"TGravityAccMeanX"  15 digits; values between [-1, 1]
+"TGravityAccMeanY"  15 digits; values between [-1, 1]
+"TGravityAccMeanZ"  15 digits; values between [-1, 1]
+"TBodyAccJerkMeanX"  15 digits; values between [-1, 1]
+"TBodyAccJerkMeanY"  15 digits; values between [-1, 1]
+"TBodyAccJerkMeanZ"  15 digits; values between [-1, 1]
+"TBodyGyroMeanX"  15 digits; values between [-1, 1]
+"TBodyGyroMeanY"  15 digits; values between [-1, 1]
+"TBodyGyroMeanZ"  15 digits; values between [-1, 1]
+"TBodyGyroJerkMeanX"  15 digits; values between [-1, 1]
+"TBodyGyroJerkMeanY"  15 digits; values between [-1, 1]
+"TBodyGyroJerkMeanZ"  15 digits; values between [-1, 1]
+"TBodyAccMagMean"  15 digits; values between [-1, 1]
+"TGravityAccMagMean"  15 digits; values between [-1, 1]
+"TBodyAccJerkMagMean"  15 digits; values between [-1, 1]
+"TBodyGyroMagMean"  15 digits; values between [-1, 1]
+"TBodyGyroJerkMagMean"  15 digits; values between [-1, 1]
+"FBodyAccMeanX"  15 digits; values between [-1, 1]
+"FBodyAccMeanY"  15 digits; values between [-1, 1]
+"FBodyAccMeanZ"  15 digits; values between [-1, 1]
+"FBodyAccMeanFreqX"  15 digits; values between [-1, 1]
+"FBodyAccMeanFreqY"  15 digits; values between [-1, 1]
+"FBodyAccMeanFreqZ"  15 digits; values between [-1, 1]
+"FBodyAccJerkMeanX"  15 digits; values between [-1, 1]
+"FBodyAccJerkMeanY"  15 digits; values between [-1, 1]
+"FBodyAccJerkMeanZ"  15 digits; values between [-1, 1]
+"FBodyAccJerkMeanFreqX"  15 digits; values between [-1, 1]
+"FBodyAccJerkMeanFreqY"  15 digits; values between [-1, 1]
+"FBodyAccJerkMeanFreqZ"  15 digits; values between [-1, 1]
+"FBodyGyroMeanX"  15 digits; values between [-1, 1]
+"FBodyGyroMeanY"  15 digits; values between [-1, 1]
+"FBodyGyroMeanZ"  15 digits; values between [-1, 1]
+"FBodyGyroMeanFreqX"  15 digits; values between [-1, 1]
+"FBodyGyroMeanFreqY"  15 digits; values between [-1, 1]
+"FBodyGyroMeanFreqZ"  15 digits; values between [-1, 1]
+"FBodyAccMagMean"  15 digits; values between [-1, 1]
+"FBodyAccMagMeanFreq"  15 digits; values between [-1, 1]
+"FBodyBodyAccJerkMagMean"  15 digits; values between [-1, 1]
+"FBodyBodyAccJerkMagMeanFreq"  15 digits; values between [-1, 1]
+"FBodyBodyGyroMagMean"  15 digits; values between [-1, 1]
+"FBodyBodyGyroMagMeanFreq"  15 digits; values between [-1, 1]
+"FBodyBodyGyroJerkMagMean"  15 digits; values between [-1, 1]
+"FBodyBodyGyroJerkMagMeanFreq"  15 digits; values between [-1, 1]
+"angle(tBodyAccMean,gravity)"  15 digits; values between [-1, 1]
+"angle(tBodyAccJerkMean),gravityMean)"  15 digits; values between [-1, 1]
+"angle(tBodyGyroMean,gravityMean)"  15 digits; values between [-1, 1]
+"angle(tBodyGyroJerkMean,gravityMean)"  15 digits; values between [-1, 1]
+"angle(X,gravityMean)"  15 digits; values between [-1, 1]
+"angle(Y,gravityMean)"  15 digits; values between [-1, 1]
+"angle(Z,gravityMean)"  15 digits; values between [-1, 1]
+"TBodyAccSTDX"  15 digits; values between [-1, 1]
+"TBodyAccSTDY"  15 digits; values between [-1, 1]
+"TBodyAccSTDZ"  15 digits; values between [-1, 1]
+"TGravityAccSTDX"  15 digits; values between [-1, 1]
+"TGravityAccSTDY"  15 digits; values between [-1, 1]
+"TGravityAccSTDZ"  15 digits; values between [-1, 1]
+"TBodyAccJerkSTDX"  15 digits; values between [-1, 1]
+"TBodyAccJerkSTDY"  15 digits; values between [-1, 1]
+"TBodyAccJerkSTDZ"  15 digits; values between [-1, 1]
+"TBodyGyroSTDX"  15 digits; values between [-1, 1]
+"TBodyGyroSTDY"  15 digits; values between [-1, 1]
+"TBodyGyroSTDZ"  15 digits; values between [-1, 1]
+"TBodyGyroJerkSTDX"  15 digits; values between [-1, 1]
+"TBodyGyroJerkSTDY"  15 digits; values between [-1, 1]
+"TBodyGyroJerkSTDZ"  15 digits; values between [-1, 1]
+"TBodyAccMagSTD"  15 digits; values between [-1, 1]
+"TGravityAccMagSTD"  15 digits; values between [-1, 1]
+"TBodyAccJerkMagSTD"  15 digits; values between [-1, 1]
+"TBodyGyroMagSTD"  15 digits; values between [-1, 1]
+"TBodyGyroJerkMagSTD"  15 digits; values between [-1, 1]
+"FBodyAccSTDX"  15 digits; values between [-1, 1]
+"FBodyAccSTDY"  15 digits; values between [-1, 1]
+"FBodyAccSTDZ"  15 digits; values between [-1, 1]
+"FBodyAccJerkSTDX"  15 digits; values between [-1, 1]
+"FBodyAccJerkSTDY"  15 digits; values between [-1, 1]
+"FBodyAccJerkSTDZ"  15 digits; values between [-1, 1]
+"FBodyGyroSTDX"  15 digits; values between [-1, 1]
+"FBodyGyroSTDY"  15 digits; values between [-1, 1]
+"FBodyGyroSTDZ"  15 digits; values between [-1, 1]
+"FBodyAccMagSTD"  15 digits; values between [-1, 1]
+"FBodyBodyAccJerkMagSTD"  15 digits; values between [-1, 1]
+"FBodyBodyGyroMagSTD"  15 digits; values between [-1, 1]
+"FBodyBodyGyroJerkMagSTD"  15 digits; values between [-1, 1]
